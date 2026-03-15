@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: LeMap
- * Plugin URI: https://www.lezaiyun.com/917.html
+ * Plugin URI: https://www.laojiang.me/7223.html
  * Description: 一个简单而优雅的文章地图/存档插件，显示按年和月组织的所有帖子。公众号：<span style="color: red;">老蒋朋友圈</span>
  * Version: 1.0.0
  * Author: 老蒋和他的小伙伴
- * Author URI: https://www.lezaiyun.com/
+ * Author URI: https://www.laojiang.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: lemap
@@ -438,7 +438,7 @@ class LeMap {
         ?>
         <div class="wrap">
             <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
-            <p>设置地图。<a href="https://www.lezaiyun.com/917.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
+            <p>设置地图。<a href="https://www.laojiang.me/7223.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
             <form action="options.php" method="post">
                 <?php
                 settings_fields('lemap_options');
